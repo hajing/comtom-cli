@@ -24,4 +24,9 @@ export default new VueI18n({
   messages, // set locale messages
 });
 
-//README，切换语言环境请使用：this.$i18n.locale = "en";
+/*
+README：
+  - 切换语言环境请使用：this.$i18n.locale = "en";
+  - 页面模板中使用：{{ $t("common.info") }};
+  - js中使用：this.$t("common.info");
+*/
